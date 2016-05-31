@@ -11,7 +11,7 @@ func main() {
 
 	var punctuation = []rune{'.', '!', '?', ',', ' '}
 
-	words := Create(str, punctuation)
+	words := tokenize.Create(str, punctuation)
 	for _, s := range words {
 		fmt.Println(s)
 	}
