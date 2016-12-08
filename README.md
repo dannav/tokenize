@@ -1,6 +1,6 @@
 ## Tokenize
 
-Takes any string as text, tokenization characters as runes `rune`, and returns results a slice of string tokens `[]string`. Where each item in the result set are the tokenized words followed by the runes to tokenize on, in order.
+Takes any string as text, tokenization characters as runes `rune`, and returns results as a slice of string tokens `[]string`. Where each item in the result set are the tokenized words followed by the runes tokenized on, in order.
 
 ## Example
 Print a set of all substrings tokenized by the following punctuation characters `['.', '!', '?', ',', ' ']`.
