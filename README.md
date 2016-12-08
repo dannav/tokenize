@@ -18,5 +18,7 @@ func main() {
 }
 ```
 
+The above returns `all text without punctuation`.
+
 ## License
 This project is released under the terms of the MIT LICENSE.
