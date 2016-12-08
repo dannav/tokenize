@@ -18,7 +18,7 @@ func main() {
 }
 ```
 
-The above returns `all text without punctuation`.
+The above returns `all words` by splitting the text on all punctuation and spaces.
 
 ## License
 This project is released under the terms of the MIT LICENSE.
